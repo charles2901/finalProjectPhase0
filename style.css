@@ -1,0 +1,68 @@
+*{
+    font-family: cursive;
+}
+#canvas{
+    border: 1px solid black;
+    background-color: rgba(116, 36, 30, 0.6);
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.score-board{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    word-spacing: 30px;
+    font-size: 50px;
+}
+
+#scoreplayerone, #scoreplayertwo{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(100, 25, 25);
+}
+
+#win-message{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(53, 50, 50);
+    color: white;
+    text-align: center;
+}
+#info-games{
+    height: 350px;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(7, 6, 49);
+    color: white;
+    text-align: center;
+}
+#info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+#start-game{
+    font-family: serif;
+    padding: 30px;
+    margin-top: 50px;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    visibility: hidden;
+}
