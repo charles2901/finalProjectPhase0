@@ -7,6 +7,7 @@ canvas.height = 600
 const scaleBoardWidth = 25;
 const scaleBoardHeight = canvas.height / 4;
 
+var startGame = false
 var score = {
     playerOne : 0,
     playerTwo : 0
@@ -15,7 +16,8 @@ var score = {
 window.addEventListener('load', function(){
 
     this.window.addEventListener('keydown', function(e){
-        if(e.key == 'Escape'){
+        if(e.key == 'Escape' && !startGame){
+            startGame = true
             document.getElementById('info-games').style = 'visibility: hidden;'
             document.getElementById('start-game').style = 'visibility: unset;'
             var playerOne = new PlayerOne()
