@@ -8,9 +8,10 @@
     <link rel="shortcut icon" href="pingpong.jpg" type="image/x-icon">
 </head>
 <body>
-    <canvas id="canvas"></canvas>
-    <div class="score-board">PLAYER1 <span id="scoreplayerone">0</span> - <span id="scoreplayertwo">0</span> PLAYER2</div>
-    <script src="script.js"></script>
+    <div class="game-board">
+        <canvas id="canvas"></canvas>
+        <div class="score-board">PLAYER1 <span id="scoreplayerone">0</span> - <span id="scoreplayertwo">0</span> PLAYER2</div>
+    </div>
     <div id="win-message"></div>
     <div id="start-game">Press space to start</div>
     <div id="info-games">
@@ -23,5 +24,6 @@
         <hr>
         <p id="info">Press Esc to start a game !</p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
